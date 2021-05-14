@@ -1,0 +1,98 @@
+/* Style the Navigation bar */
+nav{
+  
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  
+ }
+ .navBar{
+     text-align: right;
+     flex:1;
+     background-color: rgb(240, 165, 104);
+  
+ }
+ .navBar ul li{
+     list-style: none;
+     display: inline-block;
+     padding: 8px 12px;
+ }
+ .navBar ul li a{
+     color:black;
+     text-decoration: none;
+     font-size: 25px;
+     font-weight: 100;
+     
+ }
+ /* Setting the background color */
+ body{
+     background-color: white;
+ }
+ .blogname  h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    text-shadow: black;
+    background-color: rgb(240, 165, 104);
+
+}
+.blogname1  h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    text-shadow: black;
+
+}
+.blogname1{
+    background-color: rgb(240, 165, 104);
+}
+
+p{
+  font-size: 20px;
+  margin-left: 200px;
+
+
+}
+h2{
+    font-size: 30px;
+    margin-left: 200px;
+}
+h5{
+    font-size: 20px;
+    margin-left: 200px;
+}
+#trev{
+    width:300px;
+    height:400px;
+    margin-left: 500px;
+}
+#africana{
+    width:300px;
+    height:400px;
+    margin-left: 500px;
+    
+    
+}
+
+.footer{
+    height:80px;
+    background-color: rgb(240, 165, 104);
+    text-align: center;
+
+
+}
+.fa{
+   padding:20px;
+ 
+}
+p{
+    background-image:url(./images/blogback.jpg) ;
+    text-align: center;
+    margin-right: 200px;
+}

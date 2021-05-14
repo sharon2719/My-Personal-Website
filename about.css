@@ -1,0 +1,172 @@
+/* Style navigation bar */
+nav{
+  
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  
+ }
+ .navBar{
+     text-align: right;
+     flex:1;
+     background-color: rgb(240, 165, 104);
+  
+ }
+ .navBar ul li{
+     list-style: none;
+     display: inline-block;
+     padding: 8px 12px;
+ }
+ .navBar ul li a{
+     color:black;
+     text-decoration: none;
+     font-size: 25px;
+     font-weight: 100;
+     
+ }
+body{
+    background-color: white;
+}
+.biography{
+    text-align: center;
+    font-size: 70px;
+
+}
+img{
+    width:1000px;
+    height: 600px;
+    padding: 100px;
+}
+.column{
+    float:left;
+    width:30%;
+    padding: 10px;
+    padding: 20px;
+    margin:0;
+    
+
+}
+.row:after{
+    content: "";
+    display: table;
+    clear:both;
+}
+#sham3{
+    width:400px;
+    height:500px;
+   
+}
+p{
+    font-size: 20px;
+}
+#shamblack{
+    width:400px;
+    height:500px;
+}
+
+#mumndave{
+    width:400px;
+    height:400px;
+}
+#squad{
+    width:600px;
+    height:400px;
+
+}
+/* Style the text background */
+.Birth{
+    background-color: rgb(240, 165, 104);
+}
+.Family{
+    background-color: rgb(240, 165, 104);
+}
+.funfacts{
+    background-color: rgb(240, 165, 104);
+}
+#guitar{
+    width:600px;
+    height:400px;
+}
+h2{
+    font-size: 30px;
+}
+
+/* Footer  */
+.footer{
+    height:80px;
+    background-color: rgb(240, 165, 104);
+    text-align: center;
+
+}
+/* Style the icons */
+.fa{
+   padding:20px;
+ 
+}
+/* Style the image slider */
+.slide{
+    width: 600px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    text-align: center;
+    overflow: hidden;
+}
+.container{
+    width: 2400px;
+    height: 400px;
+    clear:both;
+    position: relative;
+
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+}
+.img{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+} 
+/* To move the image to the next one  */
+#image1:target~ .container{
+    left:0px;
+
+}
+#image2:target~ .container{
+    left:-600px;
+
+}
+#image3:target~ .container{
+    left:-1200px
+
+}
+#image4:target~ .container{
+    left:-1800px
+
+}
+/* Style the slider button */
+.button{
+    position: relative;
+    top:10px;
+    text-align: center;
+}
+.btn{
+    display:inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: rgb(240, 165, 104);
+}
+.text {
+    text-align: center;
+    font-weight: bolder;
+}
+#word{
+    font-size: 50px;
+}
+
+
+
